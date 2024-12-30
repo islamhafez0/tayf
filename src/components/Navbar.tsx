@@ -44,7 +44,7 @@ const Navbar = () => {
             onClick={() =>
               switchLanguage(currentLanguage === "ar" ? "en" : "ar")
             }
-            className={`py-2 px-4 text-sm hover:bg-gray-100 rounded-lg ${
+            className={`py-2 px-4 text-sm hover:bg-gray-100 rounded-lg font-bold ${
               currentLanguage !== "ar" && "font-arabic"
             }`}
           >
