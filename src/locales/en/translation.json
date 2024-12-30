@@ -1,0 +1,56 @@
+{
+  "docTitle": "TAYF - In-Kind Donations Program",
+  "docDesc": "Discover TAYF In-Kind Donations Program, enabling donations of goods and belongings to support those in need and promote sustainability.",
+  "listItems": [
+    {
+      "label": "Tayf in Action",
+      "href": "#tayf-in-action"
+    },
+    {
+      "label": "Join Tayf Now!",
+      "href": "#join-tayf"
+    }
+  ],
+  "welcomHeading": "Make a Difference with Tayf",
+  "welcomeSubtext": "Your trusted platform for seamless donations and impactful giving.",
+  "featuresHeading": "Why Choose Tayf?",
+  "features": [
+    {
+      "id": "donations",
+      "title": "Easy Donations",
+      "description": "Our intuitive interface ensures that donating to meaningful causes is quick and hassle-free. Simply choose a cause, set your amount, and make a difference with just a few taps."
+    },
+    {
+      "id": "impact",
+      "title": "Transparent Impact",
+      "description": "We value transparency. Monitor how your contributions are utilized through detailed impact reports and updates from the organizations you support."
+    },
+    {
+      "id": "boxes",
+      "title": "Nearby Boxes",
+      "description": "Locate donation boxes in your area with ease. Tayf provides a map and directions to help you contribute physical goods to verified drop-off points."
+    }
+  ],
+  "tayfInAction": {
+    "title": "See Tayf in Action!",
+    "features": [
+      {
+        "title": "Donation Process",
+        "desc": "Quickly process causes that matter to you with just a few taps"
+      },
+      {
+        "title": "Nearby Donation Boxes",
+        "desc": "Find donation boxes near you and contribute physical goods effortlessly"
+      },
+      {
+        "title": "Impact Updates",
+        "desc": "See how your donations create meaningful change in real-time"
+      }
+    ]
+  },
+  "joinTayf": {
+    "title": "Join Tayf Now!",
+    "subtitle": "Download the aoo and start creating a better tomorrow!",
+    "button": "Dowload the Tayf App"
+  }
+}

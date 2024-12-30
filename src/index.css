@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply scroll-smooth;
+}
+[dir="rtl"] {
+  @apply font-arabic;
+}
+body {
+  @apply bg-bodyBackground text-bodyColor;
+  @apply font-english;
+}
+#root {
+  @apply min-h-screen;
+}
