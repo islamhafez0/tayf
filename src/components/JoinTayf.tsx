@@ -12,7 +12,7 @@ const JoinTayf = () => {
         <div className="bg-primaryPurple-light rounded-[20px] gap-10 flex flex-col md:flex-row md:justify-between">
           <div
             dir={currentLanguage === "ar" ? "rtl" : "ltr"}
-            className={`flex flex-col p-8 md:p-14 flex-1 ${
+            className={`flex flex-col p-8 md:p-14 flex-1 text-center md:text-unset ${
               currentLanguage === "ar"
                 ? "items-center md:items-end"
                 : "items-center md:items-start"
@@ -23,7 +23,7 @@ const JoinTayf = () => {
             <a
               href="https://apps.apple.com/qa/app/tayf/id6717596245?platform=iphone"
               role="button"
-              className="text-white bg-[#683694] font-medium px-[50px] py-4 rounded-[20px] mt-10"
+              className="text-white bg-primaryPurple font-medium w-60 max-w-full text-center py-4 rounded-[20px] mt-10"
               target="_blank"
               rel="noopener noreferrer"
             >

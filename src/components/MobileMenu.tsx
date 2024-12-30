@@ -51,27 +51,32 @@ const MobileMenu = ({
 
         <div dir={currentLanguage === "ar" ? "rtl" : "ltr"}>
           <ul className="mt-20 space-y-6 mb-6">
-            {items.map((item, index) => (
-              <li
-                key={index}
-                style={{
-                  transitionDelay: `${(index + 1) * 100}ms`,
-                  opacity: mobileMenu ? 1 : 0,
-                  transform: mobileMenu
-                    ? "translateX(0)"
-                    : currentLanguage === "ar"
-                    ? "translateX(-20px)"
-                    : "translateX(20px)",
-                }}
-              >
-                <a
-                  href={item.href}
-                  className="font-semibold text-lg transform transition-all duration-200 hover:translate-x-2"
+            <>
+              {items.map((item, index) => (
+                <li
+                  key={index}
+                  style={{
+                    transitionDelay: `${(index + 1) * 100}ms`,
+                    opacity: mobileMenu ? 1 : 0,
+                    transform: mobileMenu
+                      ? "translateX(0)"
+                      : currentLanguage === "ar"
+                      ? "translateX(-20px)"
+                      : "translateX(20px)",
+                  }}
+                  className="border-b border-[#2d2d2d80] pb-6"
                 >
-                  {item.label}
-                </a>
-              </li>
-            ))}
+                  <a
+                    href={item.href}
+                    className={`font-bold text-lg transform transition-all duration-200 hover:translate-x-2 ${
+                      currentLanguage === "ar" ? "pr-8" : "pl-8"
+                    }`}
+                  >
+                    {item.label}
+                  </a>
+                </li>
+              ))}
+            </>
           </ul>
 
           <div
@@ -85,14 +90,14 @@ const MobileMenu = ({
             {currentLanguage === "ar" ? (
               <button
                 onClick={() => switchLanguage("en")}
-                className="py-2 px-4 text-sm transition-all duration-200 hover:bg-gray-100"
+                className="py-2 px-4 text-sm transition-all duration-200 font-bold mr-4"
               >
                 English
               </button>
             ) : (
               <button
                 onClick={() => switchLanguage("ar")}
-                className="py-2 px-4 text-sm transition-all duration-200 hover:bg-gray-100 font-arabic"
+                className="py-2 px-4 text-sm transition-all duration-200 font-arabic font-bold ml-4"
               >
                 العربية
               </button>
