@@ -7,16 +7,16 @@ import { useTranslation } from "react-i18next";
 import { Helmet } from "react-helmet";
 
 const App = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const documentTitle = t("docTitle");
-  const documentDescribtion = t("docDesc");
+  const documentDescription = t("docDesc");
   return (
     <>
-      <Helmet>
+      <Helmet htmlAttributes={{ lang: i18n.language }}>
         <title>{documentTitle}</title>
-        <meta name="description" content={documentDescribtion} />
+        <meta name="description" content={documentDescription} />
         <meta property="og:title" content={documentTitle} />
-        <meta property="og:description" content={documentDescribtion} />
+        <meta property="og:description" content={documentDescription} />
         <meta property="og:image" content="/assets/logo.png" />
       </Helmet>
       <Navbar />
