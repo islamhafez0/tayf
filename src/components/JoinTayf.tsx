@@ -12,10 +12,10 @@ const JoinTayf = () => {
         <div className="bg-primaryPurple-light rounded-[20px] gap-10 flex flex-col md:flex-row md:justify-between">
           <div
             dir={currentLanguage === "ar" ? "rtl" : "ltr"}
-            className={`flex flex-col p-8 md:p-14 flex-1 text-center md:text-unset ${
+            className={`flex flex-col p-8 md:p-14 flex-1 text-center ${
               currentLanguage === "ar"
-                ? "items-center md:items-end"
-                : "items-center md:items-start"
+                ? "items-center md:items-end md:text-right"
+                : "items-center md:items-start md:text-left"
             }`}
           >
             <h2 className="text-4xl md:text-5xl font-bold mb-8">{title}</h2>

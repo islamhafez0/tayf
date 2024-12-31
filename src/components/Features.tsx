@@ -22,7 +22,11 @@ const Features = () => {
         <h2 className="text-3xl md:text-5xl font-bold text-center mb-16">
           {t("featuresHeading")}
         </h2>
-        <ul className={`grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8`}>
+        <ul
+          className={`flex flex-wrap justify-center items-center ${
+            currentLanguage === "ar" && "flex-col-reverse"
+          } md:flex-row gap-8`}
+        >
           {features.map((item) => (
             <FeatureCard key={item.id} {...item} />
           ))}
