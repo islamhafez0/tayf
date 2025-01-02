@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import StoreButtons from "./StoreButtons";
 
 const JoinTayf = () => {
   const { t, i18n } = useTranslation();
@@ -20,15 +21,7 @@ const JoinTayf = () => {
           >
             <h2 className="text-4xl md:text-5xl font-bold mb-8">{title}</h2>
             <p className="text-xl">{subtitle}</p>
-            <a
-              href="https://apps.apple.com/qa/app/tayf/id6717596245?platform=iphone"
-              role="button"
-              className="text-white bg-primaryPurple font-medium w-60 max-w-full text-center py-4 rounded-[20px] mt-10"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {btn}
-            </a>
+            <StoreButtons className="mt-10 flex-wrap" />
           </div>
           <div className="w-full md:h-[434px] md:w-[580px]">
             <img
