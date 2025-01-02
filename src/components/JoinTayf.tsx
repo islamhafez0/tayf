@@ -5,7 +5,6 @@ const JoinTayf = () => {
   const { t, i18n } = useTranslation();
   const title = t("joinTayf.title");
   const subtitle = t("joinTayf.subtitle");
-  const btn = t("joinTayf.button");
   const currentLanguage = i18n.language;
   return (
     <section className="max-w-screen-xl mx-auto" id="join-tayf">
