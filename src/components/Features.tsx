@@ -1,6 +1,5 @@
 import { useTranslation } from "react-i18next";
 import FeatureCard from "./FeatureCard";
-import StoreButtons from "./StoreButtons";
 
 const Features = () => {
   const { t, i18n } = useTranslation();
@@ -31,7 +30,6 @@ const Features = () => {
             <FeatureCard key={item.id} {...item} />
           ))}
         </ul>
-        <StoreButtons className="items-center w-full mt-12 md:justify-center" />
       </div>
     </section>
   );
