@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="pt-16 pb-10 px-6 md:px-[50px] w-full flex flex-col lg:flex-row justify-between items-center">
         <div className="flex flex-col items-center text-center md:items-start md:text-start flex-1">
           <h1
-            className={`font-bold mb-6 section-title px-2.5 md:px-0 ${
+            className={`font-bold mb-6 section-title px-3.5 md:px-0 ${
               currentLanguage === "en" && "md:!text-[62px] md:!leading-[80.6px]"
             }`}
           >

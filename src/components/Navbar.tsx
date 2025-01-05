@@ -60,9 +60,9 @@ const Navbar = () => {
             {MobileItems[0].label}
           </a>
           <a
-            href="#join-tayf"
+            href="#donate-now"
             role="button"
-            className="text-white bg-primaryPurple font-bold px-[50px] py-4 rounded-[20px] transition-all duration-300"
+            className="text-white bg-primaryPurple font-bold px-[50px] py-4 rounded-[20px] transition-all duration-300 min-w-[217px] text-center"
             dir={currentLanguage === "ar" ? "rtl" : "ltr"}
           >
             {MobileItems[1].label}

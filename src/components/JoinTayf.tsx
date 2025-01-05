@@ -6,7 +6,7 @@ const JoinTayf = () => {
   const title = t("joinTayf.title");
   const subtitle = t("joinTayf.subtitle");
   return (
-    <section className="max-w-screen-xl mx-auto" id="join-tayf">
+    <section className="max-w-screen-xl mx-auto" id="donate-now">
       <div className="px-6 md:px-[50px] py-10">
         <div className="bg-primaryPurple-light rounded-[20px] gap-10 flex flex-col lg:flex-row items-center :items-start lg:justify-between">
           <div

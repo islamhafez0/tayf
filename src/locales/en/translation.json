@@ -7,11 +7,12 @@
       "href": "#tayf-in-action"
     },
     {
-      "label": "Join Tayf Now!",
-      "href": "#join-tayf"
+      "label": "Donate Now!",
+      "href": "#donate-now"
     }
   ],
   "welcomHeading": "Make a Difference with Tayf",
+  "heroButton": "Donate Now!",
   "welcomeSubtext": "Your trusted platform for seamless donations and impactful giving.",
   "featuresHeading": "Why Choose Tayf?",
   "features": [
@@ -49,7 +50,7 @@
     ]
   },
   "joinTayf": {
-    "title": "Join Tayf Now!",
+    "title": "Donate Now!",
     "subtitle": "Download the app and start creating a better tomorrow!",
     "button": "Download the Tayf App"
   }

@@ -7,11 +7,12 @@
       "href": "#tayf-in-action"
     },
     {
-      "label": "انضم إلى طيف الأن!",
-      "href": "#join-tayf"
+      "label": "تبرع الآن!",
+      "href": "#donate-now"
     }
   ],
   "welcomHeading": "اصنع فرقًا مع طيف",
+  "heroButton": "تبرع الآن!",
   "welcomeSubtext": "منصة تثق بها للتبرع وإحداث تأثير فعلي على أرض الواقع",
   "featuresHeading": "لماذا تختار طيف؟",
   "features": [
@@ -49,7 +50,7 @@
     ]
   },
   "joinTayf": {
-    "title": "انضم إلى طيف الأن!",
+    "title": "تبرع الآن!",
     "subtitle": "حمل التطبيق وابدأ بالمساهمة في صناعة غد أفضل!",
     "button": "حمل تطبيق طيف!"
   }
