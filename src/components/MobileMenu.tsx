@@ -90,7 +90,7 @@ const MobileMenu = ({
             {currentLanguage === "ar" ? (
               <button
                 onClick={() => switchLanguage("en")}
-                className="py-2 px-4 text-sm transition-all duration-200 font-bold mr-4"
+                className="py-2 px-4 text-sm transition-all duration-200 font-bold mr-4 font-english"
               >
                 English
               </button>

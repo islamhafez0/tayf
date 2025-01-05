@@ -20,7 +20,7 @@ const Navbar = () => {
   const currentLanguage = i18n.language;
 
   return (
-    <header className="max-w-screen-xl mx-auto relative">
+    <header className="max-w-screen-xl mx-auto relative" dir="ltr">
       <div className="flex items-center justify-between px-6 md:px-[50px] py-5 transition-all duration-300">
         <a href="#" className="h-11">
           <img

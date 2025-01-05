@@ -4,22 +4,23 @@ import { useState } from "react";
 
 const Hero = () => {
   const { t, i18n } = useTranslation();
-  const currentLanguage = i18n.language;
+  const currentLanguage = i18n.language as "ar" | "en";
   const [imageLoaded, setImageLoaded] = useState(false);
   return (
     <section className="max-w-screen-xl mx-auto">
-      <div className="pt-16 pb-10 px-6 md:px-[50px] w-full flex flex-col lg:flex-row gap-10 justify-between items-center">
+      <div className="pt-16 pb-10 px-6 md:px-[50px] w-full flex flex-col lg:flex-row justify-between items-center">
         <div className="flex flex-col items-center text-center md:items-start md:text-start flex-1">
           <h1
-            className={`text-4xl md:text-3xl lg:text-6xl font-bold mb-6 leading-tight ${
-              currentLanguage === "ar" && "font-arabic"
+            className={`font-bold mb-6 section-title px-2.5 md:px-0 ${
+              currentLanguage === "en" && "md:!text-[62px] md:!leading-[80.6px]"
             }`}
           >
             {t("welcomHeading")}
           </h1>
           <p
-            className={`text-lg md:text-xl mb-6 leading-relaxed ${
-              currentLanguage === "ar" && "font-arabic"
+            className={`text-xl mb-6 ${
+              currentLanguage === "en" &&
+              "text-base leading-7 md:text-xl md:leading-9"
             }`}
           >
             {t("welcomeSubtext")}

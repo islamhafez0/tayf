@@ -19,7 +19,7 @@ const FeatureCard = ({ id, title, description }: FeatureCardProps) => {
   const iconBgColor = backgroundColors[id as keyof typeof backgroundColors];
   return (
     <li
-      className="w-full md:w-[calc((100%/3)-2rem)] flex flex-col items-center space-y-[30px] text-center py-10 px-[30px] rounded-[20px] bg-white shadow-features-dropshadow border border-[#E5F4F2]"
+      className="flex flex-col items-center space-y-[30px] text-center py-10 px-[30px] rounded-[20px] bg-white shadow-features-dropshadow border border-[#E5F4F2]"
       dir={currentLanguage === "ar" ? "rtl" : "ltr"}
     >
       <div
@@ -27,7 +27,13 @@ const FeatureCard = ({ id, title, description }: FeatureCardProps) => {
       >
         <Icon id={id} className="w-[42px] h-[42px]" alt={title} />
       </div>
-      <h3 className="text-xl font-semibold">{title}</h3>
+      <h3
+        className={`text-xl font-semibold ${
+          currentLanguage === "ar" && "font-bold"
+        }`}
+      >
+        {title}
+      </h3>
       <p className="text-gray-600 leading-relaxed">{description}</p>
     </li>
   );

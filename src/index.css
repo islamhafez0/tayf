@@ -2,16 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  @apply scroll-smooth;
+@layer utilities {
+  .text-align-unset {
+    text-align: unset;
+  }
+  .section-title {
+    font-size: 40px;
+    line-height: 52px;
+  }
+  [dir="ltr"] .section-title {
+    font-size: 40px;
+    line-height: 52px;
+  }
+  @screen lg {
+    .section-title {
+      font-size: 64px;
+      line-height: 83.2px;
+    }
+    [dir="ltr"] .section-title {
+        font-size: 50px;
+        line-height: 65px;
+    }
+  }
 }
-[dir="rtl"] {
-  @apply font-arabic;
-}
-body {
-  @apply bg-bodyBackground text-bodyColor;
-  @apply font-english;
-}
-#root {
-  @apply min-h-screen;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  body {
+    @apply bg-bodyBackground text-bodyColor;
+  }
+  #root {
+    @apply min-h-screen;
+  }
+  [dir="rtl"] {
+    @apply font-arabic;
+  }
+  [dir="ltr"] {
+    @apply font-english;
+  }
 }

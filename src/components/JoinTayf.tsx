@@ -2,23 +2,17 @@ import { useTranslation } from "react-i18next";
 import StoreButtons from "./StoreButtons";
 
 const JoinTayf = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const title = t("joinTayf.title");
   const subtitle = t("joinTayf.subtitle");
-  const currentLanguage = i18n.language;
   return (
     <section className="max-w-screen-xl mx-auto" id="join-tayf">
       <div className="px-6 md:px-[50px] py-10">
-        <div className="bg-primaryPurple-light rounded-[20px] gap-10 flex flex-col md:flex-row md:justify-between">
+        <div className="bg-primaryPurple-light rounded-[20px] gap-10 flex flex-col lg:flex-row items-center :items-start lg:justify-between">
           <div
-            dir={currentLanguage === "ar" ? "rtl" : "ltr"}
-            className={`flex flex-col p-8 md:p-14 flex-1 text-center ${
-              currentLanguage === "ar"
-                ? "items-center md:items-end md:text-right"
-                : "items-center md:items-start md:text-left"
-            }`}
+            className={`flex flex-col p-8 md:p-14 flex-1 items-center lg:items-start text-center lg:text-align-unset`}
           >
-            <h2 className="text-4xl md:text-5xl font-bold mb-8">{title}</h2>
+            <h2 className="section-title font-bold mb-8">{title}</h2>
             <p className="text-xl">{subtitle}</p>
             <StoreButtons className="mt-10 flex-wrap" />
           </div>

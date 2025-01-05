@@ -21,7 +21,7 @@ const storeLinks = [
 
 const StoreButtons = ({ className = "" }: StoreButtonsProps) => {
   return (
-    <div className={`flex flex-col sm:flex-row gap-4 ${className}`}>
+    <div className={`flex flex-col sm:flex-row gap-4 md:gap-6 ${className}`}>
       {storeLinks.map((link, index) => (
         <a
           key={index}

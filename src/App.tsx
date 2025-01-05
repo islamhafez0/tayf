@@ -12,7 +12,12 @@ const App = () => {
   const documentDescription = t("docDesc");
   return (
     <>
-      <Helmet htmlAttributes={{ lang: i18n.language }}>
+      <Helmet
+        htmlAttributes={{
+          lang: i18n.language,
+          dir: i18n.language === "ar" ? "rtl" : "ltr",
+        }}
+      >
         <title>{documentTitle}</title>
         <meta name="description" content={documentDescription} />
         <meta property="og:title" content={documentTitle} />
