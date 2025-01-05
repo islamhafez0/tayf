@@ -44,7 +44,7 @@ const Navbar = () => {
             onClick={() =>
               switchLanguage(currentLanguage === "ar" ? "en" : "ar")
             }
-            className={`py-2 px-4 text-sm hover:bg-gray-100 rounded-lg font-bold ${
+            className={`py-2 min-w-[84px] text-sm hover:bg-gray-100 rounded-lg font-bold ${
               currentLanguage !== "ar" && "font-arabic"
             }`}
           >
@@ -53,7 +53,7 @@ const Navbar = () => {
           <a
             href="#tayf-in-action"
             role="button"
-            className={`bg-primaryPurple-light text-primaryPurple font-bold px-[50px] py-4 rounded-[20px] transition-all duration-300 ${
+            className={`bg-primaryPurple-light text-primaryPurple font-bold py-4 rounded-[20px] transition-all duration-300 min-w-[220px] text-center ${
               currentLanguage === "ar" && "font-arabic"
             }`}
           >
@@ -62,7 +62,7 @@ const Navbar = () => {
           <a
             href="#donate-now"
             role="button"
-            className="text-white bg-primaryPurple font-bold px-[50px] py-4 rounded-[20px] transition-all duration-300 min-w-[217px] text-center"
+            className="text-white bg-primaryPurple font-bold py-4 rounded-[20px] transition-all duration-300 min-w-[220px] text-center"
             dir={currentLanguage === "ar" ? "rtl" : "ltr"}
           >
             {MobileItems[1].label}
