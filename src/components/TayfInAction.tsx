@@ -8,13 +8,14 @@ const TayfInAction = () => {
     title: string;
     desc: string;
   }[];
+  const sectionImage = t("tayfInAction.image");
   return (
     <section className="max-w-screen-xl mx-auto" id="tayf-in-action">
       <div className="px-6 md:px-[50px] py-10">
         <div className="flex flex-col md:flex-row justify-between gap-[60px]">
           <div>
             <img
-              src="/assets/tayfinaction.png"
+              src={sectionImage}
               alt="Tayf In Action!"
               className="h-auto w-full lg:w-[620px]"
             />

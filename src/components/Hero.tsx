@@ -1,11 +1,15 @@
 import { useTranslation } from "react-i18next";
 import StoreButtons from "./StoreButtons";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Hero = () => {
   const { t, i18n } = useTranslation();
   const currentLanguage = i18n.language as "ar" | "en";
   const [imageLoaded, setImageLoaded] = useState(false);
+  const heroImage = t("heroImage");
+  useEffect(() => {
+    setImageLoaded(false);
+  }, [currentLanguage]);
   return (
     <section className="max-w-screen-xl mx-auto">
       <div className="pt-16 pb-10 px-6 md:px-[50px] w-full flex flex-col lg:flex-row justify-between items-center">
@@ -29,7 +33,7 @@ const Hero = () => {
         </div>
         <div className="relative aspect-[486.26/691] w-full max-w-[486.26px]">
           <img
-            src="/assets/hero.png"
+            src={heroImage}
             alt="Hero Image"
             className={`w-full h-full ${
               !imageLoaded && "blur-sm"

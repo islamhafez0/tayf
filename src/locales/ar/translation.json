@@ -13,6 +13,7 @@
   ],
   "welcomHeading": "اصنع فرقًا مع طيف",
   "heroButton": "تبرع الآن!",
+  "heroImage": "/assets/tayf-arabic-mockup/hero-desktop.png",
   "welcomeSubtext": "منصة تثق بها للتبرع وإحداث تأثير فعلي على أرض الواقع",
   "featuresHeading": "لماذا تختار طيف؟",
   "features": [
@@ -34,6 +35,7 @@
   ],
   "tayfInAction": {
     "title": "طيف في الميدان!",
+    "image": "/assets/tayf-arabic-mockup/see-tayf-desktop.png",
     "features": [
       {
         "title": "عملية التبرع:",

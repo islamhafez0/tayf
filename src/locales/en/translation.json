@@ -13,6 +13,7 @@
   ],
   "welcomHeading": "Make a Difference with Tayf",
   "heroButton": "Donate Now!",
+  "heroImage": "/assets/tayf-english-mockup/hero-desktop.png",
   "welcomeSubtext": "Your trusted platform for seamless donations and impactful giving.",
   "featuresHeading": "Why Choose Tayf?",
   "features": [
@@ -34,6 +35,7 @@
   ],
   "tayfInAction": {
     "title": "See Tayf in Action!",
+    "image": "/assets/tayf-english-mockup/see-tayf-desktop.png",
     "features": [
       {
         "title": "Donation Process",
