@@ -14,13 +14,15 @@
   "welcomHeading": "Make a Difference with Tayf",
   "heroButton": "Donate Now!",
   "heroImage": "/assets/tayf-english-mockup/hero-desktop.png",
+  "heroShape": "/assets/tayf-english-mockup/hero-en-shape.png",
+  "heroLantern": "/assets/tayf-english-mockup/hero-phanos.png",
   "welcomeSubtext": "Your trusted platform for seamless donations and impactful giving.",
   "featuresHeading": "Why Choose Tayf?",
   "features": [
     {
       "id": "donations",
       "title": "Easy Donations",
-      "description": "Our intuitive interface ensures that donating to meaningful causes is quick and hassle-free. Simply choose a cause, set your amount, and make a difference with just a few taps."
+      "description": "Our platform is easy to use... Donate easily and quickly in a few simple steps: choose a goal, set an amount, and start making a difference in just a few steps."
     },
     {
       "id": "impact",
@@ -39,21 +41,22 @@
     "features": [
       {
         "title": "Donation Process",
-        "desc": "Quickly process causes that matter to you with just a few taps"
+        "desc": "Quickly support causes that matter to you with just a few taps."
       },
       {
         "title": "Nearby Donation Boxes",
-        "desc": "Find donation boxes near you and contribute physical goods effortlessly"
+        "desc": "Find donation boxes near you and contribute physical goods effortlessly."
       },
       {
         "title": "Impact Updates",
-        "desc": "See how your donations create meaningful change in real-time"
+        "desc": "See how your donations create meaningful change in real time."
       }
     ]
   },
   "joinTayf": {
     "title": "Donate Now!",
     "subtitle": "Download the app and start creating a better tomorrow!",
-    "button": "Download the Tayf App"
+    "button": "Download the Tayf App",
+    "footerLantern": "/assets/tayf-english-mockup/footerLantern.png"
   }
 }

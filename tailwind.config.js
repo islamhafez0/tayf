@@ -6,7 +6,7 @@ export default {
       colors: {
         primaryPurple: {
           DEFAULT: "#683694",
-          light: "#68369433",
+          light: "#dbd2e9",
         },
         bodyBackground: "#F8F9FF",
         bodyColor: "#2D2D2D",

@@ -5,11 +5,29 @@ import TayfInAction from "./components/TayfInAction";
 import JoinTayf from "./components/JoinTayf";
 import { useTranslation } from "react-i18next";
 import { Helmet } from "react-helmet";
+import { useEffect } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
 
 const App = () => {
   const { t, i18n } = useTranslation();
   const documentTitle = t("docTitle");
   const documentDescription = t("docDesc");
+  const navigate = useNavigate();
+  const location = useLocation();
+  useEffect(() => {
+    const storedLang = localStorage.getItem("lang") || "en";
+    if (i18n.language !== storedLang) {
+      i18n.changeLanguage(storedLang);
+    }
+    localStorage.setItem("lang", i18n.language);
+
+    if (i18n.language === "ar" && !location.pathname.startsWith("/ar")) {
+      navigate(`/ar${location.pathname}`, { replace: true });
+    } else if (i18n.language === "en" && location.pathname.startsWith("/ar")) {
+      navigate(location.pathname.replace(/^\/ar/, ""), { replace: true });
+    }
+  }, [i18n.language, location.pathname]);
+
   return (
     <>
       <Helmet
