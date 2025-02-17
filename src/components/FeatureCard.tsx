@@ -19,7 +19,7 @@ const FeatureCard = ({ id, title, description }: FeatureCardProps) => {
   const iconBgColor = backgroundColors[id as keyof typeof backgroundColors];
   return (
     <li
-      className="flex flex-col items-center space-y-[30px] text-center py-10 px-[30px] rounded-[20px] bg-white shadow-features-dropshadow border border-[#E5F4F2]"
+      className="flex flex-col items-center space-y-[30px] text-center py-10 px-[30px] rounded-[20px] bg-white shadow-features-dropshadow border border-[#E5F4F2] bg-[url(/assets/feature-bg.png)] bg-no-repeat bg-center bg-cover"
       dir={currentLanguage === "ar" ? "rtl" : "ltr"}
     >
       <div

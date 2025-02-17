@@ -18,7 +18,7 @@ const TayfInAction = () => {
               <img
                 src={sectionImage}
                 alt="Tayf In Action!"
-                className="h-auto w-full lg:w-[620px]"
+                className="h-auto w-full lg:w-[620px] -mb-20 md:mb-0"
               />
             </div>
             <div className="md:pb-[67px]">
