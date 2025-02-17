@@ -19,6 +19,7 @@ const Hero = () => {
         alt="Ramadan Shape"
         className={`absolute -top-[128px] hidden lg:block
             ${currentLanguage === "ar" ? "left-0" : "right-0"}`}
+        loading="lazy"
       />
       <img
         src={heroLantern}
@@ -28,6 +29,7 @@ const Hero = () => {
             ? "-right-8 md:-right-4"
             : "-left-8 md:-left-4"
         }`}
+        loading="lazy"
       />
       <div
         style={{ zIndex: 900 }}

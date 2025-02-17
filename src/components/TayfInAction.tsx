@@ -19,6 +19,7 @@ const TayfInAction = () => {
                 src={sectionImage}
                 alt="Tayf In Action!"
                 className="h-auto w-full lg:w-[620px] -mb-20 md:mb-0"
+                loading="lazy"
               />
             </div>
             <div className="md:pb-[67px]">

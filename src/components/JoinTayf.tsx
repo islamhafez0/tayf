@@ -10,7 +10,7 @@ const JoinTayf = () => {
   return (
     <section className="max-w-screen-xl mx-auto" id="donate-now">
       <div className="px-6 md:px-[50px] py-10 overflow-hidden">
-        <div className="bg-primaryPurple-light rounded-[20px] md:gap-0 flex flex-col lg:flex-row items-center :items-start lg:justify-between bg-[url(/assets/join-tayf-bg.png)]">
+        <div className="bg-primaryPurple-light rounded-[20px] md:gap-0 flex flex-col lg:flex-row items-center :items-start lg:justify-between bg-[url(/assets/join-tayf-bg.png)] bg-no-repeat bg-cover bg-top md:bg-left">
           <div
             className={`flex flex-col p-8 md:p-[p-[3.5rem_3.5rem_0_0]] flex-1 items-center lg:items-start text-center lg:text-align-unset`}
           >
@@ -23,6 +23,7 @@ const JoinTayf = () => {
               src="/assets/join-tayf.png"
               alt="Join Tayf Now!"
               className="w-full h-full object-cover"
+              loading="lazy"
             />
             <img
               src={footerLantern}
@@ -32,6 +33,7 @@ const JoinTayf = () => {
                   ? "-left-16 md:-left-32"
                   : "-right-16 md:-right-32"
               }`}
+              loading="lazy"
             />
           </div>
         </div>
