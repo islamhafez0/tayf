@@ -17,7 +17,7 @@ const Hero = () => {
       <img
         src={heroBgShape}
         alt="Ramadan Shape"
-        className={`absolute -top-[128px] hidden lg:block
+        className={`absolute -top-[96px] hidden lg:block
             ${currentLanguage === "ar" ? "left-0" : "right-0"}`}
         loading="lazy"
       />
@@ -33,17 +33,17 @@ const Hero = () => {
       />
       <div
         style={{ zIndex: 900 }}
-        className="pt-16 pb-10 px-6 md:px-[50px] w-full flex flex-col lg:flex-row justify-between items-center"
+        className="pt-16 md:pt-8  pb-10 px-6 md:px-[50px] w-full flex flex-col lg:flex-row justify-between items-center"
       >
         <div
           className={`flex flex-col items-center text-center md:items-start md:text-start flex-1 ${
-            currentLanguage === "ar" ? "md:pr-24" : "md:pl-24"
+            currentLanguage === "ar" ? "md:pr-44" : "md:pl-44"
           }`}
           style={{ zIndex: 3 }}
         >
           <h1
             className={`font-bold mb-6 section-title px-3.5 md:px-0 ${
-              currentLanguage === "en" && "md:!text-[62px] md:!leading-[80.6px]"
+              currentLanguage === "en" && "md:!text-[56px] md:!leading-[80.6px]"
             }`}
           >
             {t("welcomHeading")}

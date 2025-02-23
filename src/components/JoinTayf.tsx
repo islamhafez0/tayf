@@ -18,7 +18,7 @@ const JoinTayf = () => {
             <p className="text-xl">{subtitle}</p>
             <StoreButtons className="mt-10 flex-wrap" />
           </div>
-          <div className="w-full md:h-[434px] md:w-[580px] relative flex-1">
+          <div className="w-full md:h-[434px] md:w-[580px] relative flex-1 overflow-hidden">
             <img
               src="/assets/join-tayf.png"
               alt="Join Tayf Now!"
@@ -30,8 +30,8 @@ const JoinTayf = () => {
               alt="Lantern"
               className={`absolute bottom-0 w-[270px] h-[360px] md:w-[473px] md:h-[632px] object-contain ${
                 currentLanguage === "ar"
-                  ? "-left-16 md:-left-32"
-                  : "-right-16 md:-right-32"
+                  ? "-left-28 md:-left-[10.7rem]"
+                  : "-right-28 md:-right-[10.7rem]"
               }`}
               loading="lazy"
             />

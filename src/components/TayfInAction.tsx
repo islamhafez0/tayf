@@ -10,9 +10,9 @@ const TayfInAction = () => {
   }[];
   const sectionImage = t("tayfInAction.image");
   return (
-    <section className="py-10">
+    <section className="py-10 bg-[url(/assets/tayf-action-bg.png)]">
       <div className="max-w-screen-xl mx-auto" id="tayf-in-action">
-        <div className="md:px-[50px] bg-[url(/assets/tayf-action-bg.png)]">
+        <div className="md:px-[50px]">
           <div className="flex flex-col md:flex-row justify-between gap-[80px] items-center">
             <div className="px-6 md:px-0">
               <img

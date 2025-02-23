@@ -16,7 +16,7 @@
   "heroImage": "/assets/tayf-english-mockup/hero-desktop.png",
   "heroShape": "/assets/tayf-english-mockup/hero-en-shape.png",
   "heroLantern": "/assets/tayf-english-mockup/hero-phanos.png",
-  "welcomeSubtext": "Your trusted platform for seamless donations and impactful giving.",
+  "welcomeSubtext": "“It Holds Value” ...With Tayf, donate easily and make a lasting impact.",
   "featuresHeading": "Why Choose Tayf?",
   "features": [
     {
@@ -41,7 +41,7 @@
     "features": [
       {
         "title": "Donation Process",
-        "desc": "Quickly support causes that matter to you with just a few taps."
+        "desc": "Donate easily and quickly in a few simple steps."
       },
       {
         "title": "Nearby Donation Boxes",
@@ -55,7 +55,7 @@
   },
   "joinTayf": {
     "title": "Donate Now!",
-    "subtitle": "Download the app and start creating a better tomorrow!",
+    "subtitle": "Download the app and help create a future full of possibilities!",
     "button": "Download the Tayf App",
     "footerLantern": "/assets/tayf-english-mockup/footerLantern.png"
   }
