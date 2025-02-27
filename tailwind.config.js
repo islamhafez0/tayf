@@ -12,7 +12,7 @@ export default {
         bodyColor: "#2D2D2D",
       },
       fontFamily: {
-        arabic: ["Cairo", "sans-serif"],
+        arabic: ["Almarai", "serif"],
         english: ["Poppins", "serif"],
       },
       boxShadow: {

@@ -24,7 +24,13 @@ const TayfInAction = () => {
             </div>
             <div className="md:pb-[67px]">
               <div className="mt-0 md:mt-24 flex flex-col items-start bg-[#F8F9FF] py-8 md:py-20 px-6 md:px-14">
-                <h2 className="section-title font-bold mb-8">{title}</h2>
+                <h2
+                  className={`section-title font-bold mb-8 ${
+                    currentLanguage === "ar" && "text-[37px] md:!text-[57px]"
+                  }`}
+                >
+                  {title}
+                </h2>
                 <ul
                   className={`space-y-6 list-disc ${
                     currentLanguage === "ar" ? "mr-5" : "ml-5"

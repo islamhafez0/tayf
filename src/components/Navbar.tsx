@@ -57,7 +57,7 @@ const Navbar = () => {
           <a
             href="#tayf-in-action"
             role="button"
-            className={`bg-primaryPurple-light text-primaryPurple font-bold py-4 rounded-[20px] transition-all duration-300 min-w-[220px] text-center ${
+            className={`bg-primaryPurple-light text-primaryPurple font-bold py-[18px] px-6 rounded-[20px] transition-all duration-300 text-center ${
               currentLanguage === "ar" && "font-arabic"
             }`}
           >
@@ -66,7 +66,7 @@ const Navbar = () => {
           <a
             href="#donate-now"
             role="button"
-            className="text-white bg-primaryPurple font-bold py-4 rounded-[20px] transition-all duration-300 min-w-[220px] text-center"
+            className="text-white bg-primaryPurple font-bold py-[18px] rounded-[20px] transition-all duration-300 min-w-[220px] text-center"
             dir={currentLanguage === "ar" ? "rtl" : "ltr"}
           >
             {MobileItems[1].label}

@@ -3,7 +3,7 @@
   "docDesc": "Discover TAYF In-Kind Donations Program, enabling donations of goods and belongings to support those in need and promote sustainability.",
   "listItems": [
     {
-      "label": "Tayf in Action",
+      "label": "TAYF is Always by Your Side",
       "href": "#tayf-in-action"
     },
     {
@@ -11,51 +11,51 @@
       "href": "#donate-now"
     }
   ],
-  "welcomHeading": "Make a Difference with Tayf",
+  "welcomHeading": "Make a Difference with TAYF",
   "heroButton": "Donate Now!",
   "heroImage": "/assets/tayf-english-mockup/hero-desktop.png",
   "heroShape": "/assets/tayf-english-mockup/hero-en-shape.png",
   "heroLantern": "/assets/tayf-english-mockup/hero-phanos.png",
-  "welcomeSubtext": "“It Holds Value” ...With Tayf, donate easily and make a lasting impact.",
-  "featuresHeading": "Why Choose Tayf?",
+  "welcomeSubtext": "It holds value. With the TAYF app, donate effortlessly to create a lasting impact.",
+  "featuresHeading": "Why TAYF?",
   "features": [
     {
       "id": "donations",
-      "title": "Easy Donations",
-      "description": "Our platform is easy to use... Donate easily and quickly in a few simple steps: choose a goal, set an amount, and start making a difference in just a few steps."
+      "title": "Ease of donation",
+      "description": "A Streamlined Donation Experience Donate in three easy steps: Select your in-kind donation type. Complete the process in just a few clicks. Start making a difference with simple steps"
     },
     {
       "id": "impact",
-      "title": "Transparent Impact",
-      "description": "We value transparency. Monitor how your contributions are utilized through detailed impact reports and updates from the organizations you support."
+      "title": "Transparent platform",
+      "description": "Commitment to Transparency We ensure every resource is effectively utilized to maximize your impact."
     },
     {
       "id": "boxes",
-      "title": "Nearby Boxes",
-      "description": "Locate donation boxes in your area with ease. Tayf provides a map and directions to help you contribute physical goods to verified drop-off points."
+      "title": "Donation boxes nearby",
+      "description": "TAYF is Always Within Reach! Use our in-app maps to instantly find the nearest TAYF donation boxes."
     }
   ],
   "tayfInAction": {
-    "title": "See Tayf in Action!",
+    "title": "TAYF is Everywhere!",
     "image": "/assets/tayf-english-mockup/see-tayf-desktop.png",
     "features": [
       {
-        "title": "Donation Process",
-        "desc": "Donate easily and quickly in a few simple steps."
+        "title": "Simple, Fast, and Impactful",
+        "desc": " Donate seamlessly via the mobile app or our “Call & Collect” service."
       },
       {
-        "title": "Nearby Donation Boxes",
-        "desc": "Find donation boxes near you and contribute physical goods effortlessly."
+        "title": "Locate Nearby Donation Points",
+        "desc": "Easily find donation boxes and contribute in-kind items to support vital initiatives."
       },
       {
-        "title": "Impact Updates",
-        "desc": "See how your donations create meaningful change in real time."
+        "title": "Your Generosity Drives Change",
+        "desc": "Every contribution fuel sustainable, positive transformations in communities."
       }
     ]
   },
   "joinTayf": {
     "title": "Donate Now!",
-    "subtitle": "Download the app and help create a future full of possibilities!",
+    "subtitle": "Download the app today and help shape a brighter tomorrow.",
     "button": "Download the Tayf App",
     "footerLantern": "/assets/tayf-english-mockup/footerLantern.png"
   }

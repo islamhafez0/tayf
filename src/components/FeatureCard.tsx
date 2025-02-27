@@ -28,7 +28,7 @@ const FeatureCard = ({ id, title, description }: FeatureCardProps) => {
         <Icon id={id} className="w-[42px] h-[42px]" alt={title} />
       </div>
       <h3
-        className={`text-xl font-semibold ${
+        className={`text-xl md:text-[28px] font-semibold ${
           currentLanguage === "ar" && "font-bold"
         }`}
       >
