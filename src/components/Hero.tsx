@@ -58,7 +58,12 @@ const Hero = () => {
           </p>
           <StoreButtons />
         </div>
-        <div className="relative aspect-[486.26/691] w-full max-w-[486.26px] bg-[url(/assets/hero-shape-bg-mobile.png)] bg-no-repeat bg-contain bg-center lg:bg-none">
+        <div
+          className="relative aspect-[486.26/691] w-full max-w-[486.26px] bg-no-repeat bg-contain bg-center lg:!bg-none"
+          style={{
+            backgroundImage: "url('/assets/hero-shape-bg-mobile.png')",
+          }}
+        >
           <img
             src={heroImage}
             alt="Hero Image"

@@ -58,7 +58,7 @@ const Navbar = () => {
             href="#tayf-in-action"
             role="button"
             className={`bg-primaryPurple-light text-primaryPurple font-bold py-[18px] px-6 rounded-[20px] transition-all duration-300 text-center ${
-              currentLanguage === "ar" && "font-arabic"
+              currentLanguage === "ar" && "font-arabic min-w-[220px]"
             }`}
           >
             {MobileItems[0].label}
